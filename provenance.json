@@ -1,0 +1,12 @@
+{
+  "source": "https://www.kaggle.com/datasets/warcoder/earthquake-dataset",
+  "version": 3,
+  "license": "CC0: Public Domain",
+  "retrieved_at": "2026-11-09",
+  "sha256": "909e6b4acccf1e9a5ef9af8f71da0ebd8476eb350fb00ab19589393566e6881a",
+  "external_sources": [
+    "USGS FDSN Event API",
+    "NOAA NCEI HazEL tsunami and earthquake catalogs"
+  ],
+  "external_label_notes": "Positive: definite tsunami; negative: inland earthquake catalog entries with no associated tsunami. Not a global absence-of-all-waves claim."
+}
