@@ -8,6 +8,7 @@ Tsunami Atlası notebook’unun farklı bilgisayarlarda dosya yüklemeden çalı
 | `external_events.json` | Eğitim/test dışında tutulan, kaynak bağlantılı 20 gerçek olay. |
 | `provenance.json` | Ana veri kaynağı, sürümü, indirme zamanı ve SHA-256 bilgisi. |
 | `ncei_external_sources.json` | Dış olay etiketleri için korunmuş NCEI kaynak kayıtları. |
+| `world.geojson` | Natural Earth 1:110m ülke sınırları; notebook dünya haritasının çizimi. |
 | `earthquake_data.csv` | Projede tutulan ek/eski CSV; güncel model eğitiminde kullanılmaz. |
 
 ## Kaynaklar ve kullanım
@@ -19,3 +20,5 @@ Dış olay kaynakları: [USGS](https://earthquake.usgs.gov/fdsnws/event/1/) ve [
 Notebook, yeniden üretilebilirlik için verileri belirli bir Git commit’ine sabitlenmiş `raw.githubusercontent.com` bağlantısından okur. Dosya seçmek veya giriş yapmak gerekmez; internet bağlantısı gerekir.
 
 Canlı uygulama: https://tsunami-alert-system.netlify.app/
+
+Harita: [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/), public domain; `ne_110m_admin_0_countries` (177 coğrafi özellik).
